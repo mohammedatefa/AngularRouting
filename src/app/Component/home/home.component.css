@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+*{
+    font-family: 'Comic Neue', cursive;
+}
+.carousel .slide{
+    overflow: hidden;
+    height: 500px;
+}
+.carousel-item img,
+.carousel-item .active img{
+    object-fit: cover;
+    height:100vh;
+}
+
+
+
+.carousel-caption{
+    position: absolute;
+    width: 400px;
+    bottom: 12.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    margin-left: 45%;
+    /* text-align: center; */
+}
+.carousel-caption h3{
+    font-size: 38px;
+}

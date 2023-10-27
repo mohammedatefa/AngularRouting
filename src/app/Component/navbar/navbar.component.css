@@ -1,0 +1,4 @@
+.active-link{
+  color: goldenrod;
+  transition: all 0.5s ease;
+}
